@@ -5,11 +5,13 @@
 }
 
 .main {
+  font-family: "Ubuntu", sans-serif;
   font-size: 1.2rem;
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to right, rgb(10, 236, 209), rgb(48, 103, 167));
   overflow: hidden;
+  position: relative;
 }
 
 nav {
@@ -50,4 +52,87 @@ nav {
   width: 20%;
   height: 20%;
   margin-right: 12px;
+}
+
+.infomation {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+
+#circle {
+  width: 900px;
+  height: 900px;
+  background: #ccc;
+  position: absolute;
+  border-radius: 50%;
+  top: 119px;
+  left: -75px;
+}
+
+.feature {
+  display: flex;
+  position: absolute;
+  color: white;
+}
+.feature img {
+  width: 70px;
+}
+.feature div {
+  margin-left: 20px;
+}
+.feature div a {
+  margin-top: 8px;
+}
+.feature.one {
+  top: 400px;
+  right: 50px;
+}
+.feature.two {
+  top: 120px;
+  left: 285px;
+}
+.feature.three {
+  bottom: 430px;
+  left: 30px;
+}
+.feature.four {
+  bottom: 180px;
+  right: 360px;
+}
+
+.pc {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translateY(-50%);
+}
+
+.control {
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.control img {
+  width: 15%;
+}
+.control h3 {
+  color: #fff;
+  margin: 20px 0;
+}
+
+#upBtn {
+  cursor: pointer;
+}
+
+#downBtn {
+  cursor: pointer;
+  transform: rotate(-180deg);
 }/*# sourceMappingURL=style.css.map */
